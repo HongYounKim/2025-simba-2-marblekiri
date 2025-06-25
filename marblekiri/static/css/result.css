@@ -4,7 +4,10 @@
 body.theme-college {
   margin: 0;
   padding: 55px;
-  background: var(linear-gradient(90deg, #ff850b 0%, #ffb200 100%));
+  background: var(
+    --Grad-Orange,
+    linear-gradient(90deg, #ff850b 0%, #ffb200 100%)
+  );
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -18,7 +21,10 @@ body.theme-college {
 body.theme-sports {
   margin: 0;
   padding: 40px;
-  background: var(linear-gradient(90deg, #27a836 0%, #41d051 100%));
+  background: var(
+    --Grad-Green,
+    linear-gradient(90deg, #27a836 0%, #41d051 100%)
+  );
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -32,8 +38,10 @@ body.theme-sports {
 body.theme-idol {
   margin: 0;
   padding: 40px;
-  background: linear-gradient(to right, #812fa7, #8a49d5);
-  height: 100vh;
+  background: var(
+    --Grad-Purple,
+    linear-gradient(90deg, #8733af 0%, #7e36cf 100%)
+  );
   overflow: hidden;
   display: flex;
   gap: 24px;
